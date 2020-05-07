@@ -3,9 +3,10 @@ package forex
 import (
 	"testing"
 
-	finance "github.com/piquette/finance-go"
-	tests "github.com/piquette/finance-go/testing"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/chrisge4/finance-go"
+	tests "github.com/chrisge4/finance-go/testing"
 )
 
 func TestGetRegularMarketForexPair(t *testing.T) {

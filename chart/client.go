@@ -3,11 +3,12 @@ package chart
 import (
 	"context"
 
-	finance "github.com/piquette/finance-go"
-	"github.com/piquette/finance-go/datetime"
-	form "github.com/piquette/finance-go/form"
-	"github.com/piquette/finance-go/iter"
 	"github.com/shopspring/decimal"
+
+	"github.com/chrisge4/finance-go"
+	"github.com/chrisge4/finance-go/datetime"
+	"github.com/chrisge4/finance-go/form"
+	"github.com/chrisge4/finance-go/iter"
 )
 
 // Client is used to invoke chart APIs.

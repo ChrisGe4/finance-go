@@ -3,8 +3,9 @@ package chart
 import (
 	"testing"
 
-	tests "github.com/piquette/finance-go/testing"
 	"github.com/stretchr/testify/assert"
+
+	tests "github.com/chrisge4/finance-go/testing"
 )
 
 func TestGetEquityChart(t *testing.T) {
